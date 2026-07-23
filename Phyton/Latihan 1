@@ -1,7 +1,40 @@
 Latihan 1
 
 Bina program untuk meminta nama pengguna dan umur.
-untuk megira luas segi empat
-menentukan nombor ganjil atau genap
-paparkan no.1 hingga 10 menggunakan gelung
-menentukan status lulus atau gagal berdasarkan markah
+nama = input("Masukkan nama anda: ")
+umur = int(input("Masukkan umur anda: "))
+
+print("Nama anda ialah", nama)
+print("Umur anda ialah", umur, "tahun")
+-------------------------------------------------------------
+Bina program untuk megira luas segi empat.
+panjang = float(input("Masukkan panjang: "))
+lebar = float(input("Masukkan lebar: "))
+
+luas = panjang * lebar
+
+print("Luas segi empat ialah", luas)
+--------------------------------------------------------------
+Bina program untuk menentukan nombor ganjil atau genap.
+nombor = int(input("Masukkan satu nombor: "))
+
+if nombor % 2 == 0:
+    print(nombor, "ialah nombor genap.")
+else:
+    print(nombor, "ialah nombor ganjil.")
+--------------------------------------------------------------
+paparkan no.1 hingga 10 menggunakan gelung.
+for nombor in range(1, 11):
+    print(nombor)
+-------------------------------------------------------------
+Bina program untuk menentukan status lulus atau gagal berdasarkan markah.
+markah = float(input("Masukkan markah anda: "))
+
+if markah >= 50:
+    print("Status: Lulus")
+else:
+    print("Status: Gagal")
+
+
+
+
